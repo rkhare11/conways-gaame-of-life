@@ -72,7 +72,7 @@ export class App extends Component {
   };
 
   play = () => {
-    this.INTERVAL_TIMER = setInterval(this.moveStep, 200);
+    this.INTERVAL_TIMER = setInterval(this.moveStep, 100);
   };
 
   stop = () => {
