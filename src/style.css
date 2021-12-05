@@ -1,0 +1,18 @@
+body {
+  background-color: #18222d;
+}
+.chess-board {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.chess-board td {
+  border: 1px solid #000;
+  width: 0.3rem;
+  height: 0.3rem;
+}
+.chess-board .light {
+  background: #eee;
+}
+.chess-board .dark {
+  background: #000;
+}
