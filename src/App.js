@@ -71,10 +71,6 @@ export class App extends Component {
     return liveNeighbours;
   };
 
-  // componentDidMount() {
-  //   setInterval(this.startGame, 100);
-  // }
-
   play = () => {
     this.INTERVAL_TIMER = setInterval(this.moveStep, 200);
   };
