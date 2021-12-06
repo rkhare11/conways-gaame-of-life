@@ -3,7 +3,7 @@ import './style.css';
 
 export class App extends Component {
   cells = {};
-  SIZE = 82;
+  SIZE = 164;
   INTERVAL_TIMER;
   previousCells = [];
   moveStep = (shouldUpdate) => {
@@ -118,7 +118,6 @@ export class App extends Component {
       }
       grid.push(<tr key={`row${i}`}>{row}</tr>);
     }
-    console.log(this.cells);
     return (
       <>
         <table className="chess-board">
